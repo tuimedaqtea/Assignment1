@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #95aa9b;
+    color: #f9f2ec;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    background-image: url('flower.jpg'); 
+    background-size: cover;
+    text-align: center;
+    color: #95aa9b;
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #95aa9b;
+    color: #f9f2ec;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.catalog {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #95aa9b;
+    color: #f9f2ec;
+    text-align: center;
+    padding: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #95aa9b; 
+}
+.details {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #95aa9b; 
+}
+.catalog {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #95aa9b; 
+}
+.contact  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #95aa9b; 
+}
+.navbar-nav .nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #000; /
+}
